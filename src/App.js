@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import InterFace from './components/interface-component';
+import DashBoard from './components/dashboard-component';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container-fluid dashboard-container">
+      <div className="row">
+        <div className="col-2 interface-component">
+          <InterFace/>
+        </div>
+        <div className="col-9 interface-component dashboard-component">
+          <DashBoard/>
+        </div>       
+      </div>
     </div>
   );
 }

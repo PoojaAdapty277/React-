@@ -1,0 +1,37 @@
+.topItem-section{
+    background: white;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.product-header{    
+    justify-content: space-between;
+    padding: 12px 8px;
+    border-radius: 8px;
+    background: #f2f6f9;
+}
+
+.therox-wrapper{
+    box-shadow: none;
+}
+
+.therox{
+    text-align: right;
+}
+
+.therox-progress{
+    box-shadow: 1px 1px 2px 1px #cbcecf;
+    border-radius: 5px;
+    padding: 1px 3px;
+    color: #8ac080;
+}
+
+.theorx-content{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.dashboard-interface{
+    border-radius: 8px;
+    background: #f2f6f9;
+}
